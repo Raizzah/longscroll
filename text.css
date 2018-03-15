@@ -147,7 +147,10 @@ h1{
   top:400px;
   left:2000px;
 }
-
+#about{
+	width:600px;
+  height:500px;
+}
 
 #towninfo {
   top:300px;
