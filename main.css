@@ -1,0 +1,55 @@
+/*@import url('https://fonts.googleapis.com/css?family=Roboto');//second way to use font  font-family: 'Roboto', sans-serif;*/
+body{font-family: 'Roboto', sans-serif; color:#fff;width:10000px;
+background-color: white;
+background:url("imgs/hill1.svg")repeat-x;
+background-position: bottom;
+
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+   url("img/backwave.png")#76aed3 51%,#3a8bc2 67%,#181a56 100%*/
+}
+/* p{
+  font-size: 2em;
+}
+#words{border: 1px solid red;
+  position: absolute;
+  top:130px;
+  left:100px;
+  width: 400px;
+  height: 200px;
+  text-align: left;
+  color: #fff;
+}
+#two{border: 1px solid blue;
+  position: absolute;
+  top:130px;
+  left:1700px;
+  width: 400px;
+  height: 200px;
+  text-align: left;
+  color: #fff;
+} */
+
+
+
+
+#counter{border: 1px solid red;
+  position: absolute;/*only box around the words doesnt span length*/
+  top:20px;
+  left: 40px;
+  margin:0;/*outside the box/ the counter div*/
+  padding: 10px;
+  width: 200px;
+  height: 100px;
+  line-height: 100px;/*same as height of thing*/
+  text-align: center;
+  color: #fff;
+}
+
+#canvas{border: 0px solid blue;
+top:0px;
+position: relative;
+margin: 0 auto;
+width: 10000px;
+height: 780px;
+padding: 0;
+background-color: skyblue;
+ }
