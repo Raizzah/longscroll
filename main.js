@@ -12,7 +12,7 @@ window.onscroll = function(){
 document.getElementById("towninfo").onclick = function() {myFunction()};
 
 function myFunction() {
-    document.getElementById("towninfo").innerHTML = "As villages begin to build and turn into towns, the population increases, with the development of stores, increasing waste";
+    document.getElementById("towninfo").innerHTML = "As population of some early farming villages increased, social relationships became more complex.  the change from a nomadic hunting-gathering way of life to settled village life took a long time. ";
 };
 
 function mouseDown() {
